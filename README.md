@@ -5,9 +5,9 @@
 
 # Bright Madueke
 
-Software engineer in Lagos. I write Rust and build for the web.
+I'm a full-stack web developer and also a rust developer
 
-Most of my side projects start as tools I want for myself. I build them end to end: design, code, and the releases.
+Most of my side projects start as tools I want for myself except for FreyaCN though as i wanted to create a ui framework. I build them end to end: design, code, and the releases.
 
 ## What I'm working on
 
