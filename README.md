@@ -1,7 +1,9 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="bonsai/bonsai-dark.svg">
-  <img alt="My Git Bonsai, grown from my GitHub activity" src="bonsai/bonsai-light.svg" width="560">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="bonsai/bonsai-dark.svg" />
+    <img src="bonsai/bonsai-light.svg" width="600" alt="My bonsai, grown from my GitHub activity" />
+  </picture>
+</p>
 
 # Hi, I'm Bright Madueke 👋
 
