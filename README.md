@@ -1,65 +1,31 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="bonsai/bonsai-dark.svg" />
-    <img src="bonsai/bonsai-light.svg" width="600" alt="My bonsai, grown from my GitHub activity" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="bonsai/bonsai-dark.svg">
+  <img alt="My Git Bonsai, grown from my GitHub activity" src="bonsai/bonsai-light.svg" width="560">
+</picture>
 
-# Hi, I'm Bright Madueke 👋
+# Bright Madueke
 
-I'm a software engineer building fast, scalable, and beautiful applications with **Rust** and the **web fullstack**. I lead engineering on my side projects — from the first commit to the shipped release.
+Software engineer in Lagos. I write Rust and build for the web.
 
-- 🔭 Currently building: **Trawl Mail** and **FreyaCN**
-- 🌱 Deep in: Rust GUI systems, local-first developer tools, and design systems
-- 📍 Based in Lagos, Nigeria (Africa/Lagos)
-- 🌐 Portfolio: [brightmadueke.vercel.app](https://brightmadueke.vercel.app)
-- 𝕏: [@Bright_Madueke](https://x.com/Bright_Madueke)
+Most of my side projects start as tools I want for myself. I build them end to end: design, code, and the releases.
 
-## About Me
+## What I'm working on
 
-I care about software that loads fast and stays out of the way. My work sits at the intersection of Rust systems programming and fullstack web development — sometimes both in the same project, like a Tauri app or a Freya component library.
+**FreyaCN** ([repo](https://github.com/brightmadueke/freyacn)) is where most of my time goes right now. It's a theming and styling layer for [Freya](https://github.com/marc2332/freya), a Rust GUI library.
 
-As the lead engineer and author of my side projects, I own the architecture, implementation, and release process. I like taking an idea from a rough spec to a tool other developers can actually use.
+The idea is simple: colors, spacing, type, and shadows come from a JSON file, and you style components with Tailwind-like utility strings or builder methods. Swap the JSON and the whole UI changes. It's pre-release and the API will still move, so pin a commit if you use it.
 
-## Tech Stack
+## Finished for now
 
-**Languages:** Rust, TypeScript, JavaScript  
-**Frontend & UI:** Freya, React, Next.js  
-**Desktop & Tooling:** Tauri  
-**Backend & Runtime:** Node.js, local-first tooling, SMTP servers  
-**Design:** Figma-to-code pipelines, design systems
+**Trawl Mail** ([repo](https://github.com/brightmadueke/trawl-mail)) is a local SMTP server for testing email in development. It catches everything your app sends and shows it in a desktop app, so you don't need a real inbox or a third-party service to see what your emails actually look like. You can search them, read the raw headers, check attachments, and export any of them as `.eml`. It's built with Tauri, so it's a small native app that sits in the tray.
 
-## Featured Projects
+It does what I wanted it to do, so I've parked it for now. I'll come back to it when I have a reason to.
 
-### [FreyaCN](https://github.com/brightmadueke/freyacn) — Design-system layer for Freya
+## Tools I reach for
 
-FreyaCN gives [Freya](https://github.com/marc2332/freya) three things that work as one: **theming**, **styling**, and **HTML-like elements**.
+Rust for anything that needs to be fast or native. TypeScript, React, and Next.js on the web. Tauri when a project needs to be a desktop app. Node for small backends.
 
-- **Theme-first:** Every color, spacing, radius, typography, shadow, and motion value lives in a JSON file. Swap the file, change the whole UI — no rebuild.
-- **Tailwind-inspired:** Use utility strings (`.style("bg-blue-500 p-4 hover:bg-blue-700")`) or fluent builder methods (`Style::default().bg(blue_500()).p_4()`), without Tailwind's toolchain.
-- **Elements:** `div`, `input`, `button`, `checkbox`, `radio`, `text`, `p`, `image` — pre-wired to the same style cascade.
-
-> Pre-release: the API is not yet stable, so pin to a specific commit or tag for production use.
-
-### [Trawl Mail](https://github.com/brightmadueke/trawl-mail) — Local SMTP testing app
-
-A local catch-all SMTP server that intercepts every email your application sends and shows it in a clean, searchable interface. No real emails, no external services, no accidental spam.
-
-- **Real-time capture** with HTML / plain-text toggle, attachment inspection, and full header analysis
-- **Search & filter** by subject, recipient, sender, or content
-- **Export** individual emails as `.eml` files
-- Built with **Tauri** for a tiny native footprint — runs quietly in your system tray across Windows, macOS, and Linux
-
-## GitHub Stats
-
-![Bright's GitHub stats](https://github-readme-stats.vercel.app/api?username=brightmadueke&show_icons=true&theme=default&hide_title=true)
-
-## Connect
+## Elsewhere
 
 - Portfolio: [brightmadueke.vercel.app](https://brightmadueke.vercel.app)
-- X: [@Bright_Madueke](https://x.com/Bright_Madueke)
-- GitHub: [@brightmadueke](https://github.com/brightmadueke)
-
----
-
-Always building. Feel free to explore the repos or reach out.
+- X: [@Bright_Madueke](https://x.com/Bright_Madueke) — the fastest way to reach me
