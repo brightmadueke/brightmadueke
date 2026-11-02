@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="bonsai/bonsai-dark.svg">
+  <img alt="My Git Bonsai, grown from my GitHub activity" src="bonsai/bonsai-light.svg" width="560">
+</picture>
+
 # Hi, I'm Bright Madueke 👋
 
 I'm a software engineer building fast, scalable, and beautiful applications with **Rust** and the **web fullstack**. I lead engineering on my side projects — from the first commit to the shipped release.
