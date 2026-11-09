@@ -4,7 +4,7 @@
   "kind": "user",
   "seed": "391fa739169a92d2",
   "planted": "2024-11-28",
-  "last_grown": "2026-11-07",
+  "last_grown": "2026-11-08",
   "trunk": {
     "height": 11,
     "girth": 2,
@@ -97,7 +97,7 @@
   "vitals": {
     "phase": "growing",
     "streak_days": 0,
-    "idle_days": 5,
+    "idle_days": 6,
     "commits_total": 68,
     "stars_total": 3,
     "public_repos": 4,
